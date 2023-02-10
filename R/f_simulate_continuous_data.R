@@ -122,5 +122,4 @@ plot.SimulationResult <- function(x,
                                   xlab = "Group",
                                   ylab = "Simulated Values") {
   # TODO implement the plot function
-  # stop("not implemented yet")
 }
