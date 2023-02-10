@@ -22,7 +22,7 @@
 #' class with name 'SimulationResult'.
 #'
 #' @examples
-#' getSimulatedTwoArmMeans(
+#' get_simulated_two_arm_means(
 #'   n1 = 50, n2 = 50, mean1 = 5, mean2 = 7, sd1 = 3,
 #'   sd2 = 4, seed = 123
 #' )
