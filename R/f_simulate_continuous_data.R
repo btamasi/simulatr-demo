@@ -1,4 +1,3 @@
-
 #'
 #' @title
 #' Get Simulated Two Arm Means
@@ -8,10 +7,16 @@
 #' groups.
 #'
 #' @param n1 a single integer value. The sample size of group 1.
-#' TODO document all arguments
+#' @param n2 a single integer value. The sample size of group 2.
+#' @param mean1 a single numeric value. The sample mean of group 1.
+#' @param mean2 a single numeric value. The sample mean of group 2.
+#' @param sd1 a single numeric value. The sample standard deviation of group 1.
+#' @param sd2 a single numeric value. The sample standard deviation of group 2.
+#' @param seed a single numeric value. Seed for the random number generation.
 #'
 #' @details
-#' TODO describe
+#'
+#' Generate two normally distributed samples.
 #'
 #' @return a list with all arguments and results; the output is defined as a
 #' class with name 'SimulationResult'.
