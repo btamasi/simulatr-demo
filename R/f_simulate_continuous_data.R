@@ -73,7 +73,7 @@ get_simulated_two_arm_means <- function(n1,
 #' @param ... further arguments passed to or from other methods.
 #'
 #' @examples
-#' x <- getSimulatedTwoArmMeans(
+#' x <- get_simulated_two_arm_means(
 #'   n1 = 50, n2 = 50, mean1 = 5, mean2 = 7,
 #'   sd1 = 3, sd2 = 4, seed = 123
 #' )
@@ -106,7 +106,7 @@ print.SimulationResult <- function(x, ...) {
 #' A ggplot2 object.
 #'
 #' @examples
-#' x <- getSimulatedTwoArmMeans(
+#' x <- get_simulated_two_arm_means(
 #'   n1 = 50, n2 = 50, mean1 = 5, mean2 = 7,
 #'   sd1 = 3, sd2 = 4, seed = 123
 #' )
