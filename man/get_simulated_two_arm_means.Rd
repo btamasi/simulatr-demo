@@ -7,8 +7,19 @@
 get_simulated_two_arm_means(n1, n2, mean1, mean2, sd1, sd2, seed = NA_integer_)
 }
 \arguments{
-\item{n1}{a single integer value. The sample size of group 1.
-TODO document all arguments}
+\item{n1}{a single integer value. The sample size of group 1.}
+
+\item{n2}{a single integer value. The sample size of group 2.}
+
+\item{mean1}{a single numeric value. The sample mean of group 1.}
+
+\item{mean2}{a single numeric value. The sample mean of group 2.}
+
+\item{sd1}{a single numeric value. The sample standard deviation of group 1.}
+
+\item{sd2}{a single numeric value. The sample standard deviation of group 2.}
+
+\item{seed}{a single numeric value. Seed for the random number generation.}
 }
 \value{
 a list with all arguments and results; the output is defined as a
@@ -19,7 +30,7 @@ Simulates and returns a normally distributed continuous dataset for two
 groups.
 }
 \details{
-TODO describe
+Generate two normally distributed samples.
 }
 \examples{
 getSimulatedTwoArmMeans(
